@@ -1,7 +1,6 @@
 body{
     background-color: #0C0B0B;
-    margin: 0px;
-    overflow-y: hidden;
+    overflow-x: visible;
 }
 .Todo_Text{
     position: absolute;
@@ -19,7 +18,7 @@ body{
 
 .User_name{
     position: absolute;
-    width: 600px;
+    width: 650px;
     height: 82px;
     left: 407px;
     top: 100px;
@@ -33,7 +32,7 @@ body{
 form{
     position:relative;
 }
-span{
+.Search_Icon{
     position: absolute;
     width: 30.14px;
     height: 30.14px;
@@ -41,22 +40,231 @@ span{
     top: 40px;
 }
 
-input{
+#search{
     position: absolute;
-    width: 399px;
+    width: 380px;
     height: 54.73px;
-    left: 909px;
+    left: 870px;
     top: 25px;
     background: rgb(255, 255, 255);
     border-radius: 10px;
     border:0px;
 }
+
+#search::placeholder{
+    color:  rgba(27, 26, 26, 0.58);
+ }
+ 
 input[type="search"]{
     font-family: OpenSans;
     padding: 0 3.6rem;
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
-    color: rgba(27, 26, 26, 0.58);
+    line-height: 34px;
 }
 
+.Add_task_section{
+    position: absolute;
+    width: 122px;
+    height: 25px;
+    left: 370px;
+    top: 310px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #F4F4F4;
+}
+
+#Add_New_Task{
+    position: absolute;
+    width: 615px;
+    height: 65px;
+    left: 362px;
+    top: 384px;
+    background: rgba(255, 255, 255, 0.99);
+    border-radius: 10px;
+    border:none;
+    
+}
+
+#Add_New_Task,input[type="text"]{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    padding: 0 2rem;
+    font-size: 28px;
+    line-height: 33px;
+    color: #4C5EFA;
+}
+
+#Add_New_Task::placeholder{
+    color: #4C5EFA;
+}
+
+.Add_Task_Icon{
+    position: absolute;
+    left: 72.43%;
+    right: 0.24%;
+    top:397px;
+    bottom: 0.24%;
+    height: 45px;
+    width: 50px;
+    background-color: transparent;
+    border:none;
+}
+
+.Your_Today_Task{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 362px;
+    top: 545px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #F4F4F4;
+}
+
+#First_Task_Name{
+    position: absolute;
+    width: 555px;
+    height: 68px;
+    left: 362px;
+    top: 603px;
+    background: rgba(77, 95, 253, 0.99);
+    border-radius: 10px;
+    border:none;
+}
+
+#First_Task_Name ,input::placeholder{
+    color: white;
+    padding: 0 3.5rem;
+}
+
+#First_Task_Name,input[type="text"]{
+     width: 590px;
+}
+#Radiobut_Add2{
+    position: absolute;
+    left: 369px;
+    top:615px;
+}
+input[type="radio"]{
+    width: 37px;
+    height: 37px;
+}
+
+input[type="radio"]:checked
+{
+    border-color: #4C5EFA;
+}
+
+.Task_Delete_Icon{
+    position: absolute;
+    left: 65.43%;
+    right: 12.5%;
+    top:620px;
+    bottom: 0.24%;
+    height: 45px;
+    width: 50px;
+    background: #FFFFFF;
+    border:none;
+    background-color: transparent;
+}
+
+.Task_Edit_Icon{
+    position: absolute;
+    left: 71.43%;
+    right: 12.5%;
+    top:620px;
+    bottom: 0.24%;
+    height: 45px;
+    width: 50px;
+    background: #FFFFFF;
+    border:none;
+    background-color: transparent;   
+}
+
+.Delete_All_Task{
+    position:relative;
+    width:fit-content;
+    height: 50px;
+    left: 890px;
+    top: 545px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: #FF4747;
+    border-radius: 10px;
+    border:none;
+}
+
+#Second_Task_name{
+    position: absolute;
+    width: 595px;
+    height: 68px;
+    left: 361px;
+    top: 700px;
+    background: rgba(77, 95, 253, 0.99);
+    border-radius: 10px;
+    border:none;
+}
+
+#Second_Task_name ,input::placeholder{
+    color: white;
+    padding: 0 3.5rem;
+}   
+
+
+.Task_Delete_Icon{
+    position: absolute;
+    left: 65.43%;
+    right: 12.5%;
+    top:620px;
+    bottom: 0.24%;
+    height: 45px;
+    width: 50px;
+    background: #FFFFFF;
+    border:none;
+    background-color: transparent;
+}
+
+#Radiobut_Add3{
+    position: absolute;
+    left: 369px;
+    top:710px;
+}
+.Task_Delete_Icon_2{
+    position: absolute;
+    left: 65.43%;
+    right: 12.5%;
+    top:715px;
+    bottom: 0.24%;
+    height: 45px;
+    width: 50px;
+    background: #FFFFFF;
+    border:none;
+    background-color: transparent;
+}
+
+.Task_Edit_Icon_3{
+    position: absolute;
+    left: 71.43%;
+    right: 12.5%;
+    top:715px;
+    bottom: 0.24%;
+    height: 45px;
+    width: 50px;
+    background: #FFFFFF;
+    border:none;
+    background-color: transparent;
+}
