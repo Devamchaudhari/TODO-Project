@@ -1,0 +1,61 @@
+body{
+    background-color: #0C0B0B;
+    margin: 0px;
+    overflow-y: hidden;
+}
+.Todo_Text{
+    position: absolute;
+    width: 300px;
+    height: 41px;
+    left: 44px;
+    top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #F4F4F4;
+}
+
+.User_name{
+    position: absolute;
+    width: 600px;
+    height: 82px;
+    left: 407px;
+    top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 82px;
+    color: #F4F4F4;
+}
+form{
+    position:relative;
+}
+span{
+    position: absolute;
+    width: 30.14px;
+    height: 30.14px;
+    left: 928.83px;
+    top: 40px;
+}
+
+input{
+    position: absolute;
+    width: 399px;
+    height: 54.73px;
+    left: 909px;
+    top: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border:0px;
+}
+input[type="search"]{
+    font-family: OpenSans;
+    padding: 0 3.6rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(27, 26, 26, 0.58);
+}
