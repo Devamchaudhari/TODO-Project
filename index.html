@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
     <title>Document</title>
 </head>
+
 <body>
     <header>
-         <p class="Todo_Text">Your Taskmanager</p>      
-         <form action="search">
+        <p class="Todo_Text">Your Taskmanager</p>
+        <form action="search">
             <input id="search" type="search" placeholder="Search your task"></input>
-            <span class="Search_Icon"><img src="/assests file/icon file/Iconly/Broken/Search.png" alt="Search"></span>
-        </form> 
+            <span class="Search_Icon"><img src="assests file/icon file/Iconly/Broken/Search.png" alt="Search"></span>
+        </form>
     </header>
-<article>
-    <p class="User_name"> 😊Welcome Devam!</p>
-    
-    <section >
-        <p class="Add_task_section">Add Task</p>
-        <form action="Add Task">
-        <input id="Add_New_Task" type="text" placeholder="Add New Task"></input>
-        <button class="Add_Task_Icon"><img src="/assests file/icon file/Iconly/Broken/Plus.png" alt="AddNEWTASK"></button>
-    </form>
- </section>
+    <article>
+        <p class="User_name"> 😊Welcome Devam!</p>
 
+        <section>
+            <p class="Add_task_section">Add Task</p>
+            <form>
+                <input class="Add_New_Task" type="text"></input>
+                <button  class="Add_Task_Icon" type="submit"><img src="assests file/icon file/Iconly/Broken/Plus.png" alt="AddNEWTASK"></button>
+            </form>
+        </section>
+        <section>
+            <p class="Your_Today_Task"> Today Task </p>
+            <button class="Delete_All_Task">Delete All &nbsp;&nbsp;<img src="assests file/icon file/Iconly/Broken/Delete.png" alt=""></button>
+        </section>
+       
+        <section class="Todo_container">
+            <ul class="Todo_list"></ul>
+        </section>
+
+        <!-- <section id="addTaskSection" >
     <section > 
         <p class="Your_Today_Task"> Today Task </p>
-        <button class="Delete_All_Task" >Delete All &nbsp;&nbsp;<img src="/assests file/icon file/Iconly/Broken/Delete.png" alt=""></button>
-        <form action="Task1">
-            <input id="First_Task_Name" type="text" placeholder="Complete Practicle" disabled ></input>
+        <button class="Delete_All_Task" >Delete All &nbsp;&nbsp;<img src="assests file/icon file/Iconly/Broken/Delete.png" alt=""></button>
+            <input id="First_Task_Name" type="text" disabled  value="Complete Practicle"> </input>
             <input id="Radiobut_Add2" type="radio" name="Add new task"></input>
-             <button class="Task_Delete_Icon"><img src="/assests file/icon file/Iconly/Broken/Delete.png" alt="Delete Button"></button> 
-             <button class="Task_Edit_Icon"><img src="/assests file/icon file/Iconly/Broken/Edit.png" alt="Delete Button"></button> 
-        </form>
+             <button class="Task_Delete_Icon"><img src="assests file/icon file/Iconly/Broken/Delete.png" alt="Delete Button"></button> 
+             <button class="Task_Edit_Icon"><img src="assests file/icon file/Iconly/Broken/Edit.png" alt="Delete Button"></button> 
     </section>
 
     <section>
-        <form action="Task2">
             <input type="text" placeholder="Project Work" id="Second_Task_name" disabled></input>
             <input id="Radiobut_Add3" type="radio" name="Add new task"></input>
-             <button class="Task_Delete_Icon_2"><img src="/assests file/icon file/Iconly/Broken/Delete.png" alt="Delete Button"></button> 
-             <button class="Task_Edit_Icon_3"><img src="/assests file/icon file/Iconly/Broken/Edit.png" alt="Delete Button"></button>
-        </form> 
+             <button class="Task_Delete_Icon_2"><img src="assests file/icon file/Iconly/Broken/Delete.png" alt="Delete Button"></button> 
+             <button class="Task_Edit_Icon_3"><img src="assests file/icon file/Iconly/Broken/Edit.png" alt="Delete Button"></button>
     </section>
+</section>
 </article>
-    
-    
+     -->
+
+        <script src="Javascript/TODO.js"></script>
+
 </body>
+
 </html>
