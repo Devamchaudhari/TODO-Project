@@ -36,7 +36,7 @@ form{
     position: absolute;
     width: 30.14px;
     height: 30.14px;
-    left: 928.83px;
+    left: 1200.83px;
     top: 40px;
 }
 
@@ -131,6 +131,22 @@ input[type="search"]{
     color: #F4F4F4;
 }
 
+.search_title{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+	left:-140px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #F4F4F4;
+}
+
+
 .Todo_container{
     position: absolute;
     display: flex;
@@ -141,6 +157,20 @@ input[type="search"]{
 }
 
 .Todo_list{
+    min-width: 200%;
+    list-style: none;
+}
+
+.Todo_scontainer{
+    position: absolute;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    left: 500px;
+    top: 780px;
+}
+
+.Todo_slist{
     min-width: 200%;
     list-style: none;
 }
