@@ -28,7 +28,6 @@ function findTODO(event){
 			 newTodo.classList.add('todo_item');
 			 todosection.appendChild(newTodo);
 
-             
 			 Todoslist.appendChild(todosection);
 		}
 	}
